@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="15.78 11.62 53.47 61.75"><script xmlns="" type="text/javascript" src="chrome-extension://kmmolakhbgdlpkjkcjkebenjheonagdm/AlgoSigner.min.js"/><script xmlns=""/><defs><style>.cls-1{fill:#1bfed7;}.cls-2{fill:#18e3c0;}.cls-3{fill:#62688f;}.cls-4{fill:#8a92b2;}.cls-5{fill:#464a74;}.cls-6{fill:#15c9ab;}.cls-7{fill:#a7a7a7;}.cls-8{fill:#d3d3d3;}.cls-9{fill:#fff;}</style></defs><polyline class="cls-1" points="15.79 27.07 15.79 57.92 42.5 73.35 42.5 63.07 24.69 52.78 24.69 32.22 15.79 27.07"/><polyline class="cls-2" points="69.22 27.07 69.22 57.92 42.5 73.35 42.5 63.07 60.31 52.78 60.31 32.22 69.22 27.07"/><polyline class="cls-3" points="42.5 21.93 42.5 42.5 60.31 52.78 60.31 32.22 42.5 21.93"/><polyline class="cls-4" points="42.5 21.93 42.5 42.5 24.69 52.78 24.69 32.22 42.5 21.93"/><polygon class="cls-5" points="60.31 52.78 42.5 42.5 24.69 52.78 42.5 63.07 60.31 52.78"/><polygon class="cls-6" points="69.22 27.07 42.5 11.65 15.79 27.07 24.69 32.22 42.5 21.93 60.31 32.22 69.22 27.07"/><polygon class="cls-7" points="42.49 38.73 42.49 48.35 51.69 42.92 42.49 38.73"/><polygon class="cls-8" points="42.49 38.73 42.49 27.65 51.69 42.92 42.49 38.73"/><polygon class="cls-9" points="42.49 27.65 33.3 42.92 42.49 38.73 42.49 27.65"/><polygon class="cls-8" points="33.3 42.92 42.49 48.35 42.49 38.73 33.3 42.92"/><polygon class="cls-9" points="33.3 44.66 42.49 57.62 42.49 50.1 33.3 44.66"/><polygon class="cls-7" points="42.49 50.1 51.7 44.66 42.49 57.62 42.49 50.1"/><script xmlns="">
+    new (class PageContext {
+    constructor(clientKey) {
+        this.client = window[Symbol.for(clientKey)];
+        this.bindEvents();
+    }
+    bindEvents() {
+        const self = this;
+        history.pushState = (f =&gt; function pushState() {
+            const ret = f.apply(this, arguments);
+            self.onUrlChange();
+            return ret;
+        })(history.pushState);
+        let firstReplaceEvent = true;
+        history.replaceState = (f =&gt; function replaceState(params) {
+            var ret = f.apply(this, arguments);
+            if (!firstReplaceEvent) {
+                self.onUrlChange();
+            }
+            firstReplaceEvent = false;
+            return ret;
+        })(history.replaceState);
+        window.addEventListener('hashchange', function () {
+            self.onUrlChange();
+        });
+    }
+    onUrlChange() {
+        this.client.emitToBg('URLS_SAFE_CHECK__CONTENT_URL_REWRITED');
+    }
+})('MARIO_POST_CLIENT_eppiocemhmnlbhjplcgkofciiegomcon')
+</script></svg>

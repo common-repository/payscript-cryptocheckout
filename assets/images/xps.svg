@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Artwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.Drop_x0020_Shadow{fill:none;}
+	.Outer_x0020_Glow_x0020_5_x0020_pt{fill:none;}
+	.Blue_x0020_Neon{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+	.Chrome_x0020_Highlight{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
+	.Jive_GS{fill:#FFDD00;}
+	.Alyssa_GS{fill:#A6D0E4;}
+	.st0{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-4584" y1="-284" x2="-4584" y2="-285">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g id="Logo_Symbol">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="31" y1="256" x2="481" y2="256">
+		<stop  offset="0" style="stop-color:#0063FF"/>
+		<stop  offset="1" style="stop-color:#00D3FF"/>
+	</linearGradient>
+	<path class="st0" d="M481,256c0,7.6-0.4,15.1-1.1,22.5h-45.3c0.9-7.4,1.4-14.9,1.4-22.5c0-99.4-80.6-180-180-180S76,156.6,76,256
+		c0,91.8,68.7,167.5,157.5,178.6V295c-13.4-7.8-22.5-22.3-22.5-39c0-24.9,20.1-45,45-45s45,20.1,45,45c0,16.7-9.1,31.2-22.5,39v48.2
+		c38.8-10,67.5-45.2,67.5-87.2c0-49.7-40.3-90-90-90s-90,40.3-90,90c0,15.6,4,30.3,11,43.1L138,321.6c-10.9-19.4-17-41.8-17-65.6
+		c0-74.6,60.4-135,135-135s135,60.4,135,135c0,66.9-48.7,122.4-112.5,133.1v90.8c-7.4,0.7-14.9,1.1-22.5,1.1
+		C131.7,481,31,380.3,31,256S131.7,31,256,31S481,131.7,481,256z"/>
+</g>
+</svg>

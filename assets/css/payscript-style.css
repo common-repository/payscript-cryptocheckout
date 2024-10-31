@@ -1,0 +1,885 @@
+.ps-fnp-text-right {
+  text-align: right;
+}
+
+.ps-fnp-text-center {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ps-fnp-inline-block {
+  display: inline-block;
+}
+
+.ps-fnp-table tr td {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.ps-fnp-timer-icon img {
+  vertical-align: baseline;
+}
+
+.ps-fnp-currency-icon {
+  vertical-align: bottom;
+}
+
+.ps-fnp-currency-icon img {
+  width: 30%;
+}
+
+.ps-fnp-smallest {
+  font-size: 12px;
+}
+
+.ps-fnp-timer {
+  font-size: 1.6rem;
+  color: #0097ff;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 2px solid #0097ff;
+  width: 110px;
+}
+
+.ps-fnp-qr-image {
+  text-align: center;
+}
+
+.ps-fnp-qr-image img {
+  width: 185px;
+  height: 185px;
+  margin: 0px auto;
+}
+
+.ps-fnp-sponsor {
+  background-color: #434d59;
+  color: #ffffff;
+  padding-right: 30px !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 17px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+table.ps-fnp-table {
+  cellpadding: 0px;
+  cellspacing: 0px;
+  border-collapse: unset;
+  border: none;
+  width: 80%;
+  margin: 0px auto;
+}
+
+table.ps-fnp-table tr td {
+  border: none;
+  border-left: 1px solid #cccccc !important;
+  border-top: 1px solid #cccccc !important;
+}
+
+table.ps-fnp-table tr td:last-child {
+  border-right: 1px solid #cccccc !important;
+}
+
+table.ps-fnp-table tr:last-child td {
+  border-bottom: 1px solid #cccccc !important;
+}
+
+.ps-fnp-table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+
+.ps-fnp-table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.ps-fnp-table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.ps-fnp-table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.ps-fnp-input {
+  width: 80% !important;
+  display: inline-block !important;
+  height: 10px;
+  padding: 20px 8px;
+}
+
+.fnp-input-div {
+  padding: 10px;
+}
+
+.ps-fnp-table label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.clip-copy img {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.ps-fnp-inner-box img {
+  width: 44px;
+  margin-right: 1rem;
+}
+
+.ps-fnp-box-info {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+
+.ps-fnp-box-info:hover {
+  box-shadow: 0 1px 5px 1px rgb(0 0 0 / 25%);
+  border: 2px solid #0097ff;
+  transform: translateY(-5px);
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.clear {
+  clear: both;
+}
+
+.ps-fnp-timer-icon {
+  width: 58px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.ps-fnp-grp1 {
+  font-weight: 600;
+  color: #888;
+}
+
+.ps-fnp-grp2 {
+  font-size: 12.5px;
+  color: #999;
+}
+
+.ps-fnp-waiting {
+  font-weight: 700;
+  color: #555;
+  font-size: 21.5px;
+}
+
+.ps-fnp-td-grp3 span {
+  margin-right: 5px;
+}
+
+.ps-fnp-list-section {
+  border: none;
+  padding: 0px 0px 10px 0px;
+  margin: 3.2rem auto 9rem;
+  box-shadow: 0 3px 8px 2px rgb(0 0 0 / 13%);
+  border-radius: 12px;
+  width: 550px;
+}
+
+.ps-fnp-status-section {
+  border: none;
+  padding: 0px 0px 0px 0px;
+  margin: 5.2rem auto 9rem;
+  box-shadow: 0 3px 8px 2px rgb(0 0 0 / 13%);
+  border-radius: 12px;
+  padding-bottom: 28px;
+  width: 550px;
+}
+
+.ps-fnp-cl-1,
+.ps-fnp-cl-2,
+.ps-fnp-cl-3 {
+  width: 32%;
+  text-align: center;
+  padding: 15px 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#payscript-qrcode {
+  display: block;
+  width: fit-content;
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  margin: 0 auto;
+}
+
+#payscript-qrcode img {
+  width: 150px;
+}
+
+.ps-fnp-border-btm {
+  border-bottom: 1px solid #cccccc;
+}
+
+.ps-fnp-cl-2 {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.row {
+  /*display: table;*/
+  width: 100%;
+  /*Optional*/
+  table-layout: fixed;
+  /*Optional*/
+}
+
+.ps-fp-txt-address {
+  color: #0098ff;
+  font-weight: 600;
+  font-family: "Montsrerrat", sans-serif;
+  display: block;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 10px 20px;
+}
+
+.ps-fp-address {
+  height: 45px;
+  border: none !important;
+  color: #434d5a !important;
+  text-overflow: ellipsis;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  margin: 0;
+  font-size: 1.4rem !important;
+  padding: 1.4rem 1rem !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px 0 0 5px !important;
+  pointer-events: none;
+}
+
+.ps-copy-img {
+  display: inline-flex;
+  width: 65px;
+  height: 45px;
+  background-color: #0097ff;
+  border-radius: 6px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+  right: 6px;
+  top: 0;
+}
+
+.ps-qrcode {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.ps-aud-txt {
+  position: relative;
+  left: 10px;
+}
+
+.ps-aud-amt {
+  position: relative;
+  left: 10px;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+/*CSS Added By Lukman*/
+
+.ps-fnp-mainrow {
+  justify-content: center !important;
+  margin: 3rem auto !important;
+  display: block;
+}
+
+.ps-cryptosecrow {
+  display: grid;
+  row-gap: 1.7rem;
+  padding: 0 1rem 1.5rem;
+  margin: auto;
+}
+
+.ps-cryptosec__txt.ps-cryptosec__txt {
+  font-size: 18px;
+  font-weight: 500;
+  color: #434d5a;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  margin-bottom: 22px;
+  align-items: center;
+  display: flex;
+}
+
+.ps-cryptosec__txt #crypto-timer {
+  padding: 0 5px;
+}
+
+.ps-cryptosec__txt img {
+  margin-right: 5px;
+  height: 40px;
+  position: relative;
+  top: -3px;
+}
+
+.ps-cryptocurrency__details {
+  position: absolute;
+  right: 4%;
+  text-align: right;
+}
+
+.ps-cryptocurrency__details .ps-cryptocurrency_loop {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: #434d5a;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ps-short_name {
+  font-weight: 600;
+  line-height: 1;
+  transform: translateX(-1.5px);
+  font-size: 23px;
+  color: #434d5a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ps-full-name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 6px;
+  color: #434d5a;
+}
+
+.ps-full_name_value {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inherit;
+  margin-left: auto;
+}
+
+.ps-processsec__row {
+  row-gap: 1.5rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.pos__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/*Timer CSS*/
+
+.ps-fnp-timer-div {
+  padding: 2.2rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.ps-remaining_time_txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #434d5a;
+}
+
+.ps-process__sec_address {
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.09),
+      rgba(0, 0, 0, 0.09),
+      transparent 0,
+      transparent 27.2px,
+      rgba(0, 0, 0, 0.09) 0
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.09),
+      rgba(0, 0, 0, 0.09) 16px,
+      transparent 0,
+      transparent 27.2px,
+      rgba(0, 0, 0, 0.09) 0
+    ),
+    repeating-linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.09),
+      rgba(0, 0, 0, 0.09),
+      transparent 0,
+      transparent 27.2px,
+      rgba(0, 0, 0, 0.09) 0
+    ),
+    repeating-linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0.09),
+      rgba(0, 0, 0, 0.09) 16px,
+      transparent 0,
+      transparent 27.2px,
+      rgba(0, 0, 0, 0.09) 0
+    );
+  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  column-gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.ps-process__sec_address .col-md-12,
+.ps-processsec__row .col-sm-12,
+.ps-processsec__row .col-lg-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.ps-fnp-currency-icon img {
+  width: 60px;
+}
+
+.ps-currency__details {
+  display: flex;
+  column-gap: 1.4rem;
+  justify-content: center;
+}
+
+.ps-currency__details__div {
+  line-height: 1;
+  row-gap: 0.8rem;
+  display: grid;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.ps-currency__details .ps-symbolamount {
+  font-size: 27px;
+  color: #434d5a;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ps-currency__details .ps-symbolamount .ps-btcsymboltxt {
+  white-space: nowrap;
+  width: 165px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+
+.ps-currency__details .ps-amount_AUD {
+  font-size: 20px;
+  color: #434d5a;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0;
+}
+
+.ps-currency__details .ps-ratesecdiv {
+  font-size: 16.5px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #999;
+  letter-spacing: 0.6px;
+}
+
+.ps-fini-final-amout {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #434d5a;
+  line-height: 1.7;
+  margin-bottom: 1.7rem;
+}
+
+.ps-fini-final-amout .bluetxt {
+  color: rgb(0, 151, 255);
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.strict-hide {
+  display: none !important;
+}
+
+.payment-window-timeout {
+  padding: 10px;
+}
+
+.copy_msg {
+  background-color: #434d59;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 27px;
+  margin-top: 16%;
+}
+
+.copy_msg::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.algo__input {
+  margin-top: 5%;
+}
+
+/*POS Timeout CSS*/
+
+.pos__text-section {
+  margin-top: 1rem;
+  display: grid;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.pos__text-section .text-1 {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #434d5a;
+}
+
+.pos__text-section .text-1--block {
+  display: block;
+}
+
+.pos__text-section .text-2 {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+  color: #434d5a;
+}
+
+.pos__text-section .text-2--block {
+  display: block;
+}
+
+.pos__payment-timout img {
+  width: 330px;
+  display: block;
+  margin: 2.5rem auto 3rem;
+}
+
+/*POS Detected CSS*/
+
+.pos__payment-detected {
+  padding: 0.7rem 0 2rem;
+}
+
+.pos__payment-detected img {
+  transform: scale(0.85);
+}
+
+.woocommerce-checkout #payment ul.payment_methods li img {
+  height: 40px !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li input {
+  margin: 0 10px 0 0 !important;
+}
+
+@media (max-width: 576px) {
+  .woocommerce-checkout #payment ul.payment_methods li input {
+    margin: 0 4px 0 0 !important;
+  }
+}
+
+/* Responsive Tablet Devices */
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .ps-fnp-grp2 {
+    font-size: 11.5px;
+  }
+  .ps-fnp-waiting {
+    font-size: 19.5px;
+  }
+  .ps-cryptocurrency__details .ps-cryptocurrency_loop {
+    width: 210px !important;
+  }
+  .ps-fnp-box-info {
+    padding: 1.5rem 1em;
+  }
+  .ps-full-name {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 670.98px) {
+  .ps-copy-img {
+    right: 5px !important;
+  }
+  .ps-fnp-grp2 {
+    font-size: 9.5px !important;
+  }
+  .ps-fnp-waiting {
+    font-size: 15.5px !important;
+  }
+  .ps-aud-txt {
+    position: relative !important;
+    left: 5px !important;
+  }
+  .ps-aud-amt {
+    position: relative !important;
+    left: 5px !important;
+  }
+  .ps-fnp-status-section {
+    width: 100%;
+  }
+  .ps-currency__details .ps-symbolamount .ps-btcsymboltxt {
+    width: 165px;
+  }
+  .ps-fnp-list-section {
+    width: 490px;
+  }
+
+  .ps-fnp-box-info {
+    padding: 1.5rem 1em;
+  }
+  .ps-cryptosecrow {
+    padding: 0 1rem;
+  }
+  .ps-cryptosec__txt {
+    display: block;
+  }
+  .ps-fp-txt-address {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 776px) {
+  .ps-cryptosec__txt.ps-cryptosec__txt {
+    font-size: 16px;
+  }
+  .ps-cryptocurrency__details .ps-cryptocurrency_loop {
+    width: 200px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .ps-fp-address {
+    right: 25px !important;
+    font-size: 16px !important;
+  }
+  .ps-fnp-input {
+    width: 100% !important;
+    border-radius: 5px 0 0 5px !important;
+  }
+  .ps-copy-img {
+    right: auto !important;
+  }
+  .ps-fnp-waiting {
+    font-size: 14.5px !important;
+  }
+  .ps-cryptocurrency__details {
+    position: absolute !important;
+    right: 5% !important;
+  }
+  .ps-fnp-box-info {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .ps-cryptocurrency__details .ps-cryptocurrency_loop {
+    width: 95px !important;
+  }
+  .ps-fnp-list-section {
+    width: 100% !important;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .ps-cryptosecrow {
+    padding: 0 16px;
+  }
+  .ps-fnp-box-info {
+    padding: 1.2rem 1rem !important;
+  }
+  .ps-fnp-inner-box img {
+    width: 32px !important;
+    margin-right: 10px !important;
+  }
+  .ps-cryptocurrency__details .ps-cryptocurrency_loop {
+    font-size: 17px !important;
+  }
+  .ps-short_name {
+    font-size: 17px !important;
+  }
+  .ps-content-third {
+    padding: 0 !important;
+  }
+  .ps-full-name {
+    font-size: 13px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: block !important;
+    width: 75px !important;
+  }
+  .ps-full_name_value {
+    width: 100px !important;
+  }
+  .ps-cryptosec__txt {
+    font-size: 14px !important;
+    display: block !important;
+    text-align: center;
+  }
+  .ps-cryptosec__txt img {
+    margin: 10px auto;
+    display: block;
+  }
+  .ps-fnp-mainrow {
+    justify-content: center !important;
+    margin: 1rem auto !important;
+  }
+  .ps-fnp-sponsor {
+    padding-right: 0 !important;
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  .ps-fnp-status-section {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .ps-fnp-timer-div {
+    column-gap: 15px;
+    padding: 1.2rem 0;
+  }
+  .ps-currency__details {
+    display: grid;
+    column-gap: 0;
+  }
+  .ps-fnp-currency-icon img {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 15px auto;
+  }
+  .ps-fnp-timer {
+    font-size: 16px;
+    width: 90px;
+  }
+  .ps-remaining_time_txt {
+    font-size: 16px;
+  }
+  .ps-process__sec_address {
+    padding: 2rem 0;
+  }
+  .ps-currency__details .ps-symbolamount {
+    font-size: 20px;
+    text-align: center;
+  }
+  .ps-process__sec_address {
+    padding: 1rem 0;
+  }
+  .ps-currency__details .ps-amount_AUD {
+    font-size: 16px;
+    line-height: 3;
+  }
+  .ps-currency__details .ps-ratesecdiv {
+    font-size: 14px;
+    text-align: center;
+  }
+  .ps-fp-txt-address {
+    padding: 10px 0;
+  }
+  .ps-currency__details .ps-symbolamount .ps-btcsymboltxt {
+    width: 135px;
+    top: 5px;
+    text-align: left;
+  }
+  .ps-clip-copy img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .clip-copy img {
+    margin: 5px auto;
+  }
+  .ps-qrcode {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .pos__input {
+    margin-bottom: 25px;
+  }
+  .copy_msg {
+    right: 0;
+    margin-top: 26.5%;
+  }
+  .ps-cryptosec__txt #crypto-timer {
+    padding: 0;
+  }
+  .site-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .ps-processsec__row {
+    padding: 10px 12px;
+  }
+  .ps-fnp-status-section {
+    margin: 5.2rem auto 4rem;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 495px) {
+  .ps-cryptocurrency__details .ps-cryptocurrency_loop {
+    width: 120px !important;
+  }
+}
+
+@media screen and (device-width: 320px) {
+  .clip-copy img {
+    margin: 5px auto;
+  }
+}
